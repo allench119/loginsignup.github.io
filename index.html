@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    </head>
+    <body class="align">
+        <div class="site_container">
+            <div class="grid_container form">
+                <div class="form_tab signin">
+                    <form action="" method="post" class="form form-general">
+                        <div class="form_field">
+                            <label class="fontawesome-user" for="login_username"><span class="hidden">Username</span></label>
+                            <input id="login_username" type="text" class="form_input" placeholder="Username" required>
+                        </div>
+                        <div class="form_field">
+                            <label class="fontawesome-lock" for="login_password"><span class="hidden">Password</span></label>
+                            <input id="login_password" type="password" class="form_input" placeholder="Password" required>
+                        </div>
+                        <div class="form_field">
+                            <input type="submit" value="Sign In">
+                        </div>
+                    </form>
+                    <p class="text-center form_toggle" tab-toggle="signup">Not a member? <a href="#">Sign up now</a> <span class="fontawesome-arrow-right"></span></p>
+                </div>
+                <div class="form_tab signup">
+                    <form action="" method="post" class="form form-general">
+                        <div class="form_field">
+                            <label class="fontawesome-user" for="signup_username"><span class="hidden">Username</span></label>
+                            <input id="signup_username" type="text" class="form_input" placeholder="Username" required>
+                        </div>
+                        <div class="form_field">
+                            <label class="fontawesome-lock" for="signup_password"><span class="hidden">Password</span></label>
+                            <input id="signup_password" type="password" class="form_input" placeholder="Password" required>
+                        </div>
+                        <div class="form_field">
+                            <label class="fontawesome-lock" for="signup_password"><span class="hidden">Password</span></label>
+                            <input id="signup_password" type="password" class="form_input" placeholder="Re-enter" required>
+                        </div>
+                        <div class="form_field">
+                            <input type="submit" value="Sign Up">
+                        </div>
+                    </form>
+                    <p class="text-center form_toggle" tab-toggle="signin">Already signed up? <a href="#">Sign in now</a> <span class="fontawesome-arrow-right"></span></p>
+                </div>
+            </div>
+        </div>
+        <script src="js/sign_in_up.js"></script>
+    </body>
+</html>
